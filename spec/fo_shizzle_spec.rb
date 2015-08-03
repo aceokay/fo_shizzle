@@ -16,6 +16,6 @@ describe('String#fo_shizzle') do
   end
 
   it('replaces letters correctly in a string of words') do
-    expect("moses supposes his toeses are roses".fo_shizzle)).to(eq("mozez suppozez hiz toezez are rozez"))
+    expect("moses supposes his toeses are roses".fo_shizzle).to(eq("mozez suppozez hiz toezez are rozez"))
   end
 end

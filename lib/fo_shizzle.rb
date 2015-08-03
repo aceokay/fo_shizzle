@@ -6,6 +6,7 @@ class String
     split_sentence.each() do |letter|
       if(letter === " ")
         previousSpace = true
+        word_split.push(letter)
       elsif(letter === "s")
         if (previousSpace === true)
           previousSpace = false
